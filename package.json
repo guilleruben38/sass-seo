@@ -1,0 +1,14 @@
+{
+  "name": "sass2seo",
+  "version": "1.0.0",
+  "description": "andensport",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --include-path scss ./scss/style.scss ./css/style.css -w"
+  },
+  "author": "Guillermo Ruben",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
+}

@@ -1,0 +1,66 @@
+.footer {
+    background-color:$negro;
+    color: $verde-main;
+    padding: 60px 20px;
+
+    //redes sociales
+    &__redes {
+        display: flex;
+        justify-content:space-evenly;
+        margin-left: -150px;
+        margin-top: 20px;
+        
+
+        // mapa
+        $IconoRedesSociales: (
+            facebook: rgb(0, 0, 255),
+            twitter: rgb(0, 191, 255),
+            instagram: rgb(167, 0, 144),
+        );
+
+        // bucles
+        @each $NombreRedesSociales, $IconoColor in $IconoRedesSociales {
+            .redes-#{$NombreRedesSociales} {
+                color: $blanco;
+                font-size: 50px;
+                transition: all 0,3s;
+
+                &:hover {
+                    color:$IconoColor;
+                }
+            }
+
+        }
+        
+      
+
+    }
+
+
+    //copyright
+    &__copyright {
+        margin-top: 50px;
+        text-align: center;
+        color: #000;
+
+    }
+
+    &__principal {
+        display: grid;
+        max-width: 1200px;
+        margin: 0;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    h4 {
+        color: $blanco;
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+
+  
+}
+
+.footer__redes-h3 {
+    color: $blanco;
+}

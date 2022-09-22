@@ -1,0 +1,136 @@
+/* TODA LA PANTALLA */
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'figtree', sans-serif;
+    text-decoration: none;
+}
+.fondo-img-i{
+    background-image: url(./assets/fondoindex.jpg);
+}
+
+/* UNICAMENTE EL BODY */
+body {
+    background-color: $negro;
+}
+
+main {
+    margin-right: 300px;   
+     
+ }
+ 
+ aside {
+     width: 600px;
+     display: grid;
+     grid-template-columns: repeat(5 20%);
+     grid-template-rows:repeat(5 20%);
+     align-content: end;
+     justify-items:left;
+     transition: transform 5s;
+      
+    &:hover {
+        @extend .hovers;
+  
+}       
+ }
+
+/* footer */
+footer {
+    position: relative;
+    background-color:$negro ;
+    color:$blanco ;    
+}
+
+/* ubicacion */
+.body-img iframe {
+    display: grid;
+    grid-column-start: 4;
+    
+& iframe {
+    @extend .hovers;
+}
+}
+
+/* Contenedor del iniciar sesion */
+.user-container {
+    border: 8px double $verde-main;
+    position: relative;
+    height: 100px;
+    width: 250px;
+    margin-top: 10px;
+    background-color:darkgray;
+    margin-bottom: 100px;
+    /* Titulo del iniciar sesion*/
+&__h3 {
+    background-color: $verde-oscuro;
+    display: inline-block;
+    padding: 10px;
+    height: 22px;
+    width: 230px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+}
+
+/* contenedor de la imagen y la ubicacion*/
+.body-img {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    transform: translate(10px);
+    &:hover {
+        @extend .hovers     
+    }  
+}
+/* ubicacion */
+.body-img iframe {
+    display: grid;
+    grid-column-start: 4;
+    & iframe:hover {
+        @extend .hovers;
+    } 
+}
+
+
+
+
+
+
+
+// extends
+.hovers {
+    transform: scalex(1.1) scaley(1.1);
+    margin-right: 100px;
+}
+
+.borders {
+    border-left: 8px solid  $verde-main;
+    border-bottom: 8px solid $verde-main;
+    
+}
+
+
+
+// mixins
+@mixin templategrid($grids) {
+    display: grid;
+    grid-template-columns: repeat($grids 20%);
+    grid-template-rows:repeat( 20%);
+}
+
+@mixin templateflex ($valuejustify)  {
+    display:flex;
+    justify-content:$valuejustify;
+    margin-top: 50px;
+    margin-bottom: 50px; 
+}
+
+
+@mixin gridtemplate ($valuealign,$justifyitems) {
+     display: grid;
+     align-content:$valuealign;
+     
+
+     @if ($justifyitems == true) {
+        justify-items:left;
+     }
+}
