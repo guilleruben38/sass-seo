@@ -1,0 +1,21 @@
+turnos:
+<meta name="description" content="Saca tu turno online!">
+
+
+torneos:
+<meta name="description" content="El torneo mas grande de futbol 7 en la zona!">
+
+
+multimedia:
+<meta name="description" content="Las mejores fotos para que la subas a tu feed de instagram!">
+
+contactanos:
+<meta name="description" content="Cualquier consulta habla con nosotros!">
+
+
+index:
+<meta name="description" content="La mejor cancha de futbol sintentico.">
+
+
+Las palabras claves puse en todas las pagina lo mismo
+<meta name="keywords" content="Futbol, Pelota, Deporte, Cancha, Torneo, Practica, Juego, Dirversion, Amigos,">
