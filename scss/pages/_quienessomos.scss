@@ -1,0 +1,144 @@
+.personas-container {
+    display: grid;
+    grid-template-columns: repeat(5, 50%);
+    grid-template-rows: repeat(2, 50%);
+}
+
+
+
+.socios-container {
+    color: $blanco;
+    margin-left: 10px;
+}
+
+.socios-container img{
+    width: 600px;
+    height: 600px;
+    padding-bottom: 200px;
+
+    
+}
+
+.entrenadores-container {
+    color:$blanco ;
+    margin-left: 10px;
+}
+
+.entrenadores-container img {
+    width: 600px;
+    height: 600px;
+    padding-bottom: 200px;
+}
+
+.preparador-container {
+    color: $blanco;
+    margin-left: 10px;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.preparador-container img {
+    width: 600px;
+    height: 600px;
+    padding-bottom: 200px;
+}
+    
+
+.medico-container {
+    color: $blanco;
+    margin-left: 10px;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.medico-container img {
+    width: 600px;
+    height: 600px;
+    padding-bottom: 200px;
+    
+}
+
+@media (max-width:1350px) {
+    .personas-container {
+        display: grid;
+        
+        grid-template-rows:repeat(4, 500px);
+    }
+    
+.socios-container {
+    color: $blanco;
+    margin-left: 10px;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+
+.entrenadores-container {
+    color:$blanco ;
+    margin-left: 10px;
+    grid-row-start: 2;
+    grid-row-end: 2;
+   
+}
+
+
+
+.preparador-container {    
+    color: $blanco;    
+    margin-left: 10px; 
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+ .medico-container {
+     color: $blanco;
+     margin-left: 10px;
+     grid-row-start: 4;
+     grid-row-end: 4;
+ }
+
+}
+
+@media (max-width:600px) {
+    .medico-container img {
+        width: 400px;
+        height: 500px;
+    }
+
+    .preparador-container img {
+        width: 400px;
+        height: 500px;
+    }
+
+    .entrenadores-container img {
+        width: 400px;
+        height: 500px;
+    }
+
+    .socios-container img {
+        width: 400px;
+        height: 500px;
+    }
+}
+
+@media (max-width:399px) {
+    .medico-container img {
+        width: 200px;
+        height: 400px;
+    }
+
+    .preparador-container img {
+        width: 200px;
+        height: 400px;
+    }
+
+    .entrenadores-container img {
+        width: 200px;
+        height: 400px;
+    }
+
+    .socios-container img {
+        width: 200px;
+        height: 400px;
+    }
+}

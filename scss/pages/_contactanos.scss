@@ -81,3 +81,27 @@
         background-color: black;
         border-radius: 5px;
     }
+
+
+    @media (max-width:535px) {
+        .section-form-container {
+            width: 100px;
+            height: 550px;
+        }
+        .form-container {
+            font-size: 20px;
+        }
+    }
+
+    @media (max-width:381px) {
+        .section-form-container {
+            width: 100px;
+            height: 450px;
+            margin-bottom: 100px;
+        }
+        
+
+        .form-container {
+            font-size: 10px;
+        }
+    }

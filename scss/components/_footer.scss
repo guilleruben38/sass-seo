@@ -6,7 +6,7 @@
     //redes sociales
     &__redes {
         display: flex;
-        justify-content:space-evenly;
+        justify-content:center;
         margin-left: -150px;
         margin-top: 20px;
         
@@ -63,4 +63,35 @@
 
 .footer__redes-h3 {
     color: $blanco;
+}
+
+
+
+
+
+
+@media (max-width:900px) {
+    .footer__principal {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3,1fr);
+    }
+
+    .queofrecemos-container{
+        grid-column-start: 1;
+        grid-row-end: 1;
+    }
+
+    .quienessomos-container {
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .footer_redes {
+        grid-row-start: 2;
+        grid-row-end: 3;
+      
+    }
+
+    
 }

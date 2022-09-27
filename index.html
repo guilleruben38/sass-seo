@@ -16,21 +16,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=DynaPuff&family=Figtree&family=Merriweather&family=Rubik+Dirt&display=swap" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=DynaPuff&family=Merriweather&family=Rubik+Dirt&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <script defer src="index.js"></script>
+    
+
 </head>
 <body class="fondo-img-i">
     <header>
-        <div class="nav-container">
-          <nav>
-            <ul class="nav-container__ul">
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./pages/contactanos.html">Contactanos</a></li>
-                <li><a href="./pages/turnos.html">Turnos </a></li>
-                <li><a href="./pages/torneos.html">Torneos </a></li>
-                <li><a href="./pages/multimedia.html">Fotos/videos </a></li>
+        <div class="header-nav"> 
+          <nav class="nav"> 
+            <button class="nav-toggle">⚽</button>
+            <ul class="nav-menu nav-menu_visible">
+                <li class="nav-menu-item"><a href="./pages/contactanos.html" class="nav-menu-link nav-link">Contactanos</a></li>
+                <li class="nav-menu-item"><a href="./pages/turnos.html" class="nav-menu-link nav-link">Turnos </a></li>
+                <li class="nav-menu-item"><a href="./pages/torneos.html" class="nav-menu-link nav-link">Torneos </a></li>
+                <li class="nav-menu-item"><a href="./pages/multimedia.html" class="nav-menu-link nav-link">Fotos/videos </a></li>
+                <li class="nav-menu-item"> <a href="./pages/escuela.html" class="nav-menu-link nav-link">Escuela para niños</a></li>
+                <li class="nav-menu-item"><a href="./pages/quienessomos.html" class="nav-menu-link nav-link">Quienes somos?</a></li>
+                <li class="nav-menu-item"><a href="./index.html" class="nav-menu-link nav-link">Inicio</a></li>
             </ul>
-            <span>⚽</span>
           </nav>
-         </div>
+        </div>
+         
         <div>
         <h1 class="header-h1">EL NUEVO ANDEN</h1>
         </div>
@@ -103,25 +109,26 @@
 
     <footer class="footer">
         <div class="footer__principal">
-        <div>
+            <!-- agregueyo -->
+        <div class="queofrecemos-container">
             <h4>Que ofrecemos?</h4>
             <ul class="footer__principal-list">
-                <li><a href="">Escuelita de futbol para niños y niñas</a></li>
-                <li><a href="">Partidos</a></li>
-                <li><a href="">Torneos</a></li>
+                <li><a href="./pages/escuela.html">Escuelita de futbol para niños y niñas</a></li>
+                <li><a href="./pages/turnos.html">Partidos</a></li>
+                <li><a href="./pages/torneos.html">Torneos</a></li>
             </ul>
         </div>
 
 
 
-
-        <div>
+            <!-- agregueyo -->
+        <div class="quienessomos-container">
         <h4>Quienes somos?</h4>
         <ul class="footer__principal-list">
-            <li><a href="" color:green>Socios</a></li>
-            <li><a href="">Entrenadores</a></li>
-            <li><a href="">Preparador fisico</a></li>
-            <li><a href="">Medico</a></li>
+            <li><a href="./pages/quienessomos.html">Socios</a></li>
+            <li><a href="./pages/quienessomos.html">Entrenadores</a></li>
+            <li><a href="./pages/quienessomos.html">Preparador fisico</a></li>
+            <li><a href="./pages/quienessomos.html">Medico</a></li>
         </ul>
         </div>
 
@@ -144,6 +151,7 @@
         </div>
     
      </footer>
+     <script src="app.js"></script>
   
 </body>
 </html>

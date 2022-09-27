@@ -1,0 +1,107 @@
+.titulo-escuela {
+    font-size: 75px;
+    color: wheat;
+    margin-left: 10px;
+}
+ .parrafo-escuela {
+    color: $blanco;
+    margin-left: 10px;
+    font-size: 25px;
+    background-color:rgb(71, 70, 70);
+    border-radius: 10px;
+ }
+
+ .div-preguntas {
+   max-width: 400px;
+ }
+
+ .contenedor-form-img {
+   display: grid;
+   grid-template-columns: repeat(2, 50%);
+   grid-template-rows: repeat(2, 50%);
+ }
+
+ .img-escuela {
+    width: 800px;
+    height: 600px;
+    grid-column-start: 2; 
+}
+
+.img-escuela img {
+    width: 800px;
+    height: 600px;
+  
+    margin-bottom: 50px;
+}
+
+.form-containers {
+    grid-column-start: 1;
+    grid-row-end: 1;
+    padding: 50px;
+    margin: 20px;
+    font-size: xx-large;
+    background-color: rgb(53, 100, 53);
+    border-radius: 20px;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+    }
+
+@media (max-width:1300px) {
+  
+.img-escuela img {
+  width: 600px;
+  height: 400px;
+}
+  
+}
+
+@media (max-width:1300px) {
+  
+  .img-escuela img {
+    width: 600px;
+    height: 400px;
+  }
+    
+  }
+  
+  @media (max-width:900px) {
+  
+    .img-escuela {
+      grid-column-start: 1; 
+  }
+  .form-containers {
+    font-size: 25px;
+    width: 500px;
+  }
+  
+    }
+
+    @media (max-width:700px) {
+      .parrafo-escuela {
+        font-size: 20px;
+        max-width: 200px;
+      }
+
+      .titulo-escuela{
+       font-size: 20px;
+        max-width: 200px;
+      }
+
+      .form-containers {
+        font-size: 15px;
+        width: 300px;
+      }
+
+      .img-escuela img {
+        width: 400px;
+        height: 200px;
+      }
+      
+      
+    }
+    
+    
+
+
+  
+  

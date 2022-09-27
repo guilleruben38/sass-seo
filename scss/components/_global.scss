@@ -55,7 +55,7 @@ footer {
 .user-container {
     border: 8px double $verde-main;
     position: relative;
-    height: 100px;
+    height: 110px;
     width: 250px;
     margin-top: 10px;
     background-color:darkgray;
@@ -65,8 +65,8 @@ footer {
     background-color: $verde-oscuro;
     display: inline-block;
     padding: 10px;
-    height: 22px;
-    width: 230px;
+    height: 32px;
+    width: 235px;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -81,7 +81,7 @@ footer {
         @extend .hovers     
     }  
 }
-/* ubicacion */
+ubicacion
 .body-img iframe {
     display: grid;
     grid-column-start: 4;
@@ -114,7 +114,8 @@ footer {
 @mixin templategrid($grids) {
     display: grid;
     grid-template-columns: repeat($grids 20%);
-    grid-template-rows:repeat( 20%);
+    grid-template-rows:repeat(5 20%);
+
 }
 
 @mixin templateflex ($valuejustify)  {

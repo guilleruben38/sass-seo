@@ -17,24 +17,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=DynaPuff&family=Merriweather&family=Rubik+Dirt&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-
+    <script src="../index.js"></script>
 </head>
 <body class="fondo-img-t">
-    <header>
-        <div class="nav-container-t">
-          <nav>
-            <ul class="nav-container-t__ul">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../pages/contactanos.html">Contactanos</a></li>
-                <li><a href="../pages/turnos.html">Turnos </a></li>
-                <li><a href="../pages/torneos.html">Torneos </a></li>
-                <li><a href="../pages/multimedia.html">Fotos/videos </a></li>
-            </ul>
-            <span>⚽</span>
-          </nav>
-         </div>
+  <header>
+    <div class="header-navs"> 
+      <nav class="navs"> 
+        <button class="nav-toggles">⚽</button>
+        <ul class="nav-menus nav-menu_visibles">
+            <li class="nav-menu-items"><a href="../pages/contactanos.html" class="nav-menu-links nav-links">Contactanos</a></li>
+            <li class="nav-menu-items"><a href="../pages/turnos.html" class="nav-menu-links nav-links">Turnos </a></li>
+            <li class="nav-menu-items"><a href="../pages/torneos.html" class="nav-menu-links nav-links">Torneos </a></li>
+            <li class="nav-menu-items"><a href="../pages/multimedia.html" class="nav-menu-links nav-links">Fotos/videos </a></li>
+            <li class="nav-menu-items"> <a href="../pages/escuela.html" class="nav-menu-links nav-links">Escuela para niños</a></li>
+            <li class="nav-menu-items"><a href="../pages/quienessomos.html" class="nav-menu-links nav-links">Quienes somos?</a></li>
+            <li class="nav-menu-items"><a href="../index.html" class="nav-menu-links nav-links">Inicio</a></li>
+        </ul>
+      </nav>
+    </div>
+      </div>
         <div>
-        <h1 class="header-h1">EL NUEVO ANDEN</h1>
+        <h1 class="header-h1s">EL NUEVO ANDEN</h1>
         </div>
     </header>
     <main>
@@ -106,49 +109,53 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26861.633564910335!2d-62.13877159422624!3d-32.69391066733764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c97fff4168a567%3A0x81645dc76b8c180b!2sEl%20Nuevo%20And%C3%A9n%20-%20Escuela%20de%20f%C3%BAtbol%20y%20eventos!5e0!3m2!1ses-419!2sar!4v1659648477971!5m2!1ses-419!2sar" width="450" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
     
+    
+    
     <footer class="footer">
-        <div class="footer__principal">
-        <div>
-            <h4>Que ofrecemos?</h4>
-            <ul class="footer__principal-list">
-                <li><a href="">Escuelita de futbol para niños y niñas</a></li>
-                <li><a href="">Partidos</a></li>
-                <li><a href="">Torneos</a></li>
-            </ul>
-        </div>
+      <div class="footer__principal">
+          <!-- agregueyo -->
+      <div class="queofrecemos-container">
+          <h4>Que ofrecemos?</h4>
+          <ul class="footer__principal-list">
+              <li><a href="./pages/escuela.html">Escuelita de futbol para niños y niñas</a></li>
+              <li><a href="./pages/turnos.html">Partidos</a></li>
+              <li><a href="./pages/torneos.html">Torneos</a></li>
+          </ul>
+      </div>
+
+
+
+          <!-- agregueyo -->
+      <div class="quienessomos-container">
+      <h4>Quienes somos?</h4>
+      <ul class="footer__principal-list">
+          <li><a href="./pages/quienessomos.html">Socios</a></li>
+          <li><a href="./pages/quienessomos.html">Entrenadores</a></li>
+          <li><a href="./pages/quienessomos.html">Preparador fisico</a></li>
+          <li><a href="./pages/quienessomos.html">Medico</a></li>
+      </ul>
+      </div>
 
 
 
 
-        <div>
-        <h4>Quienes somos?</h4>
-        <ul class="footer__principal-list">
-            <li><a href="" color:green>Socios</a></li>
-            <li><a href="">Entrenadores</a></li>
-            <li><a href="">Preparador fisico</a></li>
-            <li><a href="">Medico</a></li>
-        </ul>
-        </div>
+      <div class="footer_redes">
+          <!-- redes sociales -->
+          <h3 class="footer__redes-h3">Seguinos en nuestras redes</h3>
+          <div class="footer__redes">
+              <a href="https://www.facebook.com/anden.sport" class="redes-facebook"><i class="bi bi-facebook"></i></a>
+              <a href="https://twitter.com/andensport"class="redes-twitter"><i class="bi bi-twitter"></i></a>
+              <a href="https://www.instagram.com/elnuevoanden/?hl=es-la"class="redes-instagram"><i class="bi bi-instagram"></i></a>
+          </div>
+      </div>
+  </div>
+      
+      <div class="footer__copyright"> 
+          <small> &copy; 2022 | Anden Sport, todos los derechos reservados</small>
+      </div>
+  
+   </footer>
+   <script src="app.js"></script>
 
-
-
-
-        <div class="footer_redes">
-            <!-- redes sociales -->
-            <h3 class="footer__redes-h3">Seguinos en nuestras redes</h3>
-            <div class="footer__redes">
-                <a href="https://www.facebook.com/anden.sport" class="redes-facebook"><i class="bi bi-facebook"></i></a>
-                <a href="https://twitter.com/andensport"class="redes-twitter"><i class="bi bi-twitter"></i></a>
-                <a href="https://www.instagram.com/elnuevoanden/?hl=es-la"class="redes-instagram"><i class="bi bi-instagram"></i></a>
-            </div>
-        </div>
-    </div>
-        
-        <div class="footer__copyright"> 
-            <small> &copy; 2022 | Anden Sport, todos los derechos reservados</small>
-        </div>
-    
-     </footer>
-    
 </body>
 </html>
