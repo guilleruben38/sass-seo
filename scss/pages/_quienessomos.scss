@@ -101,44 +101,91 @@
 
 @media (max-width:600px) {
     .medico-container img {
-        width: 400px;
+        width: 420%;
         height: 500px;
     }
 
     .preparador-container img {
-        width: 400px;
+        width:420%;
         height: 500px;
     }
 
     .entrenadores-container img {
-        width: 400px;
+        width: 420%;
         height: 500px;
     }
 
     .socios-container img {
-        width: 400px;
+        width: 420%;
         height: 500px;
     }
 }
 
+
+@media (max-width:599px) {
+    .medico-container img {
+        width: 320%;
+        height: 500px;
+    }
+
+    .preparador-container img {
+        width:320%;
+        height: 500px;
+    }
+
+    .entrenadores-container img {
+        width: 320%;
+        height: 500px;
+    }
+
+    .socios-container img {
+        width: 320%;
+        height: 500px;
+    }
+}
+
+@media (max-width:419px) {
+    .medico-container img {
+        width: 220%;
+        height: 500px;
+    }
+
+    .preparador-container img {
+        width:220%;
+        height: 500px;
+    }
+
+    .entrenadores-container img {
+        width: 220%;
+        height: 500px;
+    }
+
+    .socios-container img {
+        width: 220%;
+        height: 500px;
+    }
+}
+
+
+
 @media (max-width:399px) {
     .medico-container img {
-        width: 200px;
+        width: 200%;
         height: 400px;
     }
 
     .preparador-container img {
-        width: 200px;
+        width: 200%;
         height: 400px;
     }
 
     .entrenadores-container img {
-        width: 200px;
+        width: 200%;
         height: 400px;
     }
 
     .socios-container img {
-        width: 200px;
+        width: 200%;
         height: 400px;
     }
 }

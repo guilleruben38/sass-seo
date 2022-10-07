@@ -6,6 +6,7 @@
     padding: 15px;
     font-size: 40px;
     background-color: rgb(67, 92, 67);
+    border: 1px solid black;
 }
 
 /* titulo tabla de turnos */
@@ -18,13 +19,19 @@
     border-radius: 20px;
     font-size: 30px;
     background-color: rgb(12, 12, 12);
+    border: 1px solid black;
 }
 /* tr de turnos */
 .tr-1 td {
     font-size: 70px;
     color:black;
     background-color: rgb(42, 73, 42);
+    border: 5px solid black;
 
+}
+
+section td {
+    border: 5px solid black;
 }
 
 .fondo-img-tu {

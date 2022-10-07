@@ -28,11 +28,13 @@
      @extend .borders;
      text-align: center;
      font-family:'rubik dirt',cursive;
+     color: black;
  }
  
  /* Parrafo del aside del index */
  &__parrafo {
      font-size: 27px;
+     color: black;
      font-family: 'merriweather', serif;
      border-bottom: 8px solid $verde-main ;
      border-radius: 5px;  
@@ -77,7 +79,7 @@
             font-size: 15px;
             /* inputos del iniciar sesion */
          & input {
-            font-size: 18px;
+            font-size: 15px;
   
        }
          /* titulo del iniciar sesion */
@@ -88,6 +90,7 @@
             font-size: 25px;
        }
       } 
+    
     }
     
 
@@ -127,7 +130,19 @@
            justify-items: center;
            align-content:flex-end;  
        }  
-   }    
+       .aside-container__h2 {
+        font-size: 30px;
+       }
+      
+   }  
+   
+   .aside-container__parrafo a {
+    color: white;
+
+   }
+   .aside-container__parrafo a:hover {
+    color:burlywood;
+   }
 
 
 
@@ -152,11 +167,11 @@
      .user-container {
         width: 220px;
         height: 100px;
-        font-size: 10px;
+        font-size: 15px;
 
         /* inputos del iniciar sesion */
      & input {
-        font-size: 10px;
+        font-size: 15px;
 
    }
         /* titulo del iniciar sesion */
@@ -197,11 +212,11 @@
     .user-container {
         width: 220px;
         height: 100px;
-        font-size: 10px;
+        font-size: 15px;
 
         /* inputos del iniciar sesion */
      & input {
-        font-size: 10px;
+        font-size: 15px;
 
    }
         /* titulo del iniciar sesion */

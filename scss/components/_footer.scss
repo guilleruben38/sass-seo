@@ -24,7 +24,6 @@
                 color: $blanco;
                 font-size: 50px;
                 transition: all 0,3s;
-
                 &:hover {
                     color:$IconoColor;
                 }
@@ -52,6 +51,7 @@
         grid-template-columns: repeat(3, 1fr);
     }
 
+
     h4 {
         color: $blanco;
         margin-bottom: 5px;
@@ -60,6 +60,19 @@
 
   
 }
+
+
+.footer__principal-list a {
+    color: $verde-main;
+}
+
+
+.footer__principal-list a:hover {
+    color:wheat;
+}
+
+
+
 
 .footer__redes-h3 {
     color: $blanco;
@@ -87,11 +100,14 @@
         grid-row-end: 2;
     }
 
-    .footer_redes {
+    .footer_redess {
         grid-row-start: 2;
         grid-row-end: 3;
-      
+    
     }
 
+    .redes-facebook {
+        margin-left:130px;
+    }
     
 }
